@@ -4,7 +4,7 @@ node {
         git branch: 'main', url: 'https://github.com/danielshine1/MySoftware.git'
     }
     stage("run files"){
-        sh 'click.py'
-        sh 'newscreen'
+        sh 'python click.py'
+        sh 'python newscreen.py'
     }
 }
